@@ -26,7 +26,7 @@ cosmwasm_1_4 = ["cosmwasm-std/cosmwasm_1_4", "cw-multi-test?/cosmwasm_1_4"]
 
 [dependencies]
 sylvia-derive = { workspace = true }
-cosmwasm-std = { version = "1.5", features = ["staking"] }
+cosmwasm-std = { version = "1.5" }
 cosmwasm-schema = "1.5"
 schemars = "0.8"
 serde = { version = "1.0", default-features = false, features = ["derive"] }
